@@ -4,6 +4,7 @@
   "rules": {
     "comma-dangle": [2, "never"],
     "import/extensions": ["ignorePackages"],
-    "jsx-quotes": [2, "prefer-single"]
+    "jsx-quotes": [2, "prefer-single"],
+    "no-return-assign": ["error", "except-parens"]
   }
 }
